@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitf5a857c9e4c52bed0abd021c7daaa7b8
+class ComposerStaticInit55d7dff5343105a29f68d90786ecaa73
 {
     public static $files = array (
         'f485627b283286104bbc2461f512799f' => __DIR__ . '/..' . '/getkirby/toolkit/bootstrap.php',
@@ -57,9 +57,9 @@ class ComposerStaticInitf5a857c9e4c52bed0abd021c7daaa7b8
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitf5a857c9e4c52bed0abd021c7daaa7b8::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitf5a857c9e4c52bed0abd021c7daaa7b8::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitf5a857c9e4c52bed0abd021c7daaa7b8::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit55d7dff5343105a29f68d90786ecaa73::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit55d7dff5343105a29f68d90786ecaa73::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit55d7dff5343105a29f68d90786ecaa73::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

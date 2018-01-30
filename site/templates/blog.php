@@ -2,25 +2,7 @@
 
   <main class="main" role="main">
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-
-      <?php
-      // This page uses a separate controller to set variables, which can be used
-      // within this template file. This results in less logic in your templates,
-      // making them more readable. Learn more about controllers at:
-      // https://getkirby.com/docs/developer-guide/advanced/controllers
-      if($pagination->page() == 1):
-      ?>
-        <div class="intro text">
-          <?= $page->text()->kirbytext() ?>
-        </div>
-      <?php endif ?>
-
-      <hr />
-    </header>
-
-    <section class="wrap">
+    <section class="blog">
       <?php if($articles->count()): ?>
         <?php foreach($articles as $article): ?>
 
@@ -57,4 +39,4 @@
 
   </main>
 
-<?php snippet('footer') ?>
+  <?php snippet('footer') ?>
