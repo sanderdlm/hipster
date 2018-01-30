@@ -1,2 +1,0 @@
-# hipster
-Hipster Kirby theme
