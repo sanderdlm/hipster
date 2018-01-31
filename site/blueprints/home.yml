@@ -14,3 +14,9 @@ fields:
   text:
     label: Text
     type:  textarea
+
+files:
+  fields:
+    caption:
+      label: Caption
+      type: textarea

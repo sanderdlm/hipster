@@ -28,3 +28,6 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+c::set('plugin.styledmap.apikey', 'AIzaSyAHZD_bU3jRPTgcnZxKSWI_5tTb3-mlyuc');
+c::set('plugin.styledmap.defaults.zoom', 17);

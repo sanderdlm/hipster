@@ -3,13 +3,29 @@
 <main class="main" role="main">
   
   <div class='wrap'>
+  	
     <div class="column">
       <?= $page->text()->kirbytext() ?>
     </div>
 
     <div class="column">
-      <?= $page->text()->kirbytext() ?>
+
+		<?php foreach($page->images() as $image): ?>
+		  <figure>
+		    <?= $image->resize(700); ?>
+		    <?php if($image->caption()->isNotEmpty()): ?>
+		      <figcaption>
+		        <?= $image->caption()->kirbytext() ?>
+		      </figcaption>
+		    <?php endif ?>
+		  </figure>  
+		<?php endforeach ?>
+
     </div>
+  </div>
+
+  <div class="column">
+    <?= $page->intro()->kirbytext() ?>
   </div>
 
 </main>

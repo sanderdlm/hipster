@@ -1,6 +1,29 @@
 @charset "UTF-8";
 
-/* -----  1.2 Reset & Normalization  ---------------------------------------- */
+/* -----  Fonts  -----*/
+
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url(../fonts/texgyreheros-regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url(../fonts/texgyreheros-bold.woff) format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url(../fonts/texgyreheros-italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* -----  Reset  -----*/
 
 *, *::before, *::after {
   margin: 0;
@@ -16,34 +39,45 @@ footer, header, main, menu, nav, section, summary {
   display: block;
 }
 
-::-moz-selection {
-  background: #0f60e2;
-  color: #fff;
+/* Typo */
+
+h1,
+h2,
+h3 {
+ line-height: 1.2
 }
 
-::selection {
-  background: #0f60e2;
-  color: #fff;
+/* Links */
+
+a {
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+
 }
 
-/* Layout */
+a:hover {
+  text-decoration: underline;
+}
+
+/* -----  Layout/structure  -----*/
 
 html {
   height: 100%;
 }
 
 body {
-  font-family: FranklinGothicURWCom-Dem,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: 'TeX Gyre Heros',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   height: 100%;
   display: flex;
   font-size: 112.5%;
   line-height: 1.6;
-  color: #454545;
+  color: #222;
 }
 
 .sidebar {
   min-width: 300px;
-  font-size: 40px;
+  font-size: 2.2em;
 }
 
 .main {
@@ -57,52 +91,44 @@ body {
 
 .column {
   flex: auto;
-  padding: 20px;
+  padding: 30px;
+  border: dotted 1px red;
 }
 
 .footer {
   padding: 10px 20px 10px 20px;
   width: 100%;
-  background-color: #0f60e2;
+  background-color: #222;
   position: fixed;
   bottom: 0;
+  text-align: right;
 }
 
-.footer a {
+.footer p {
   color: #fff;
   font-size: 1.5em;
 }
 
-/* Typo */
-
-h1,
-h2,
-h3 {
- line-height: 1.2
+.angle {
+  width: 105vw;
+  background-color: #222;
+  position: fixed;
+  left: -2.5vw;
+  bottom: 30px;
+  height: 70px;
+  transform: rotate(-2deg);
 }
-
-a {
-  color: #0f60e2;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #0fe291;
-}
-
 
 /* Menu */
 
 .menu {
-  padding: 20px;
+  padding: 20px 30px 20px 30px;
   position: fixed;
   overflow-y: hidden;
-  max-height: 500px; /* approximate max height */
+  max-height: 800px;
   transition-property: max-height;
   transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0.5, 1, 0.5, 1);
+  transition-timing-function: ease;
 }
 
 .submenu {
@@ -111,15 +137,14 @@ a:hover {
   padding-left: 20px;
   transition-property: max-height;
   transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0.5, 1, 0.5, 1);
+  transition-timing-function: ease;
 }
 
 .submenu.is-active {
   max-height: 500px;
 }
-.menu-item {
 
-}
+/* Mobile menu */
 
 .burger {
   position: absolute;
@@ -133,7 +158,7 @@ a:hover {
 }
 
 .burger span {
-  background-color: #0f60e2;
+  background-color: #000;
   display: block;
   height: 2px;
   left: calc(50% - 8px);
@@ -181,19 +206,63 @@ a:hover {
   transform: translateY(-5px) rotate(-45deg);
 }
 
-/* Blog */
+/* Misc */
 
-img {
+.orb {
+  height: 80vh;
+  width: 80vh;
+  opacity: 0.5;
+  z-index: -5;
+  border-radius: 50%;
+  position: fixed;
+  top: 5vh;
+  left: -40vh;
+}
+
+.blue {
+  background-color: #6ab4cf;
+}
+
+.orange {
+  background-color: #f24613;
+}
+
+.green {
+  background-color: #6acf85;
+}
+
+img { /* Responsive images */
   max-width: 100%;
   height: auto;
 }
-.article img {
-  max-width: 400px;
+figcaption {
+  font-size: .7em;
+  color: #fff;
+  position: relative;
+  top: -35px;
+  left: 10px;
 }
 
-.pagination-item svg {
-  width: 50px;
+hr {
+  height: 2px;
+  background-color: #222;
+  width: 60%;
+  margin: 5px 0px 5px 0px;
 }
+
+::-moz-selection {
+  background: #0f60e2;
+  color: #fff;
+}
+
+::selection {
+  background: #0f60e2;
+  color: #fff;
+}
+
+/* ====================================
+============ SMALL SCREEN =============
+=====================================*/
 
 @media all and (max-width: 1200px) {
   .wrap {
@@ -201,29 +270,59 @@ img {
   }
 }
 
+/* ====================================
+============ SMALLER SCREEN ===========
+=====================================*/
+
+@media all and (max-width: 700px) {
+  /* Decrease the footer font size */
+  .footer p {
+    font-size: 1em;
+  }
+  .angle {
+  height: 40px;
+  }
+}
+
+/* ====================================
+============ MOBILE ===================
+=====================================*/
+
 @media all and (max-width: 450px) {
+  /* Put the "sidebar" on top of the content */
   body {
     flex-direction: column;
   }
+  /* Lower the sidebar padding */
   .sidebar {
-    padding: 0;
+    padding: 0px;
   }
+  /* Make the menu burger icon visible */
+  .burger {
+    display: block;
+  }
+  /* Invert the menu color and hide it by decreasing the height to 0 */
   .menu {
-    background-color: #0f60e2;
-    padding: 0;
+    background-color: #222;
+    padding: 0px;
     max-height: 0;
     position: relative;
+  }
+  .menu-item {
+    margin-left: 20px;
   }
   .menu a {
     color: #fff;
   }
-  .menu.is-active {
-    max-height: 500px;
-  }
-  .burger {
-    display: block;
-  }
   .burger.is-active span {
     background-color: #fff;
   }
+  /* Set the active height so the menu will slide down/animate when activated */
+  .menu.is-active {
+    max-height: 800px;
+  }
+  .angle {
+    bottom: 50px;
+  }
+
 }

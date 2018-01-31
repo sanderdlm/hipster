@@ -1,41 +1,33 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-    
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>      
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
-      </div>    
-      <hr />      
-    </header>
-    
-    <div class="wrap wide">
-      <h2>Get in Touch</h2>
-      
-      <ul class="contact-options">
-        <?php foreach($page->contactoptions()->toStructure() as $item): ?>
-          <?php $icon = $page->image($item->icon()); ?>
-          <li class="contact-item column">
-            <div class="contact-item-content">
-              <img src="<?= $icon->url() ?>" width="<?= $icon->width() ?>" alt="<?= $item->title()->html() ?> icon" class="contact-item-icon" />
-              <h3 class="contact-item-title"><?= $item->title()->html() ?></h3>
-              <p class="contact-item-text">
-                <?= $item->text()->html() ?>
-              </p>
-            </div>
-            <p class="contact-item-action">
-              <a href="<?= $item->url()->html() ?>" class="contact-action btn"><?= $item->linktext()->html() ?></a>
-            </p>
-          </li>
-        <?php endforeach ?>
-      </ul>
-    </div>
-      
-    <div class="contact-twitter text wrap cf">
+<main class="main" role="main">
+  
+  <div class='wrap'>
+  	
+    <div class="column">
       <?= $page->text()->kirbytext() ?>
     </div>
-    
-  </main>
+
+    <div class="column">
+
+		<?php
+		echo $page->styledmap(
+		    'Trefpunt', 		// title
+		    'https://www.google.com/maps/place/Trefpunt/@51.0563,3.727171,19z/data=!4m5!3m4!1s0x0:0x24d9f92759d817f4!8m2!3d51.0561429!4d3.7271128?hl=en-US',
+		    [
+	            'info' => 'Trefpunt<br>Walter De Buckplein 5<br>9000 Gent',
+	        ],
+		    'map-style'
+		);
+		?>
+
+    </div>
+  </div>
+
+  <div class="column">
+    <?= $page->intro()->kirbytext() ?>
+  </div>
+
+</main>
 
 <?php snippet('footer') ?>

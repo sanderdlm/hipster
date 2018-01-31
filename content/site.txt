@@ -1,13 +1,13 @@
-Title: Kirby Starterkit
+Title: Trefpunt vzw
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Sander De la Marche
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Trefpunt vzw
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Copyright: 2018 © Trefpunt vzw
