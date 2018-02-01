@@ -1,0 +1,76 @@
+Title: Contact
+
+----
+
+Text: 
+
+## Adres
+Walter De Buckplein 5
+9000 Gent
+België
+## Telefonish
+T: +32 9 225 36 76
+F: +32 9 233 10 37
+## Online
+info@trefpunt.be
+www.trefpunt.be
+## Financieel
+Trefpunt vzw
+BTW BE0410.791.535
+Tuin Van Eden vzw
+BTW BE 0450.381.391
+
+----
+
+Intro: 
+
+Guido De Leeuw
+(artistieke leiding, programmatie)
+guido@trefpunt.be
+
+Sandra Bardyn
+(zakelijke leiding)
+sandra@trefpunt.be
+
+Faye Van Kerckhove
+(zakelijke coordinatie)
+fayetrefpunt@gmail.com
+
+Ilja Bracke
+(artistieke productie, programmatie)
+ilja@trefpunt.be
+
+----
+
+Contactoptions: 
+
+- 
+  title: Contact
+  text: >
+    Feel free to drop us a line if you
+    have any questions.
+  url: mailto:support@getkirby.com
+  linktext: Write an email
+  icon: contact.svg
+- 
+  title: Forum
+  text: >
+    Join the Kirby community and connect
+    with others.
+  url: https://forum.getkirby.com/
+  linktext: Visit Kirby’s forum
+  icon: forum.svg
+- 
+  title: GitHub
+  text: >
+    Report Kirby-related issues directly on
+    GitHub.
+  url: https://github.com/getkirby
+  linktext: Kirby on GitHub
+  icon: github.svg
+- 
+  title: Docs
+  text: "Check out Kirby's detailed tutorials and instructions."
+  url: https://getkirby.com/docs
+  linktext: Documentation
+  icon: docs.svg

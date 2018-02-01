@@ -23,7 +23,7 @@ if($items->count()):
         <a href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a>
         <ul class="submenu">
           <?php foreach($children as $child): ?>
-          <li class="menu-item<?= r($item->isOpen(), ' is-active') ?>"><a href="<?php echo $child->url() ?>"><?php echo $child->title()->html() ?></a></li>
+          <li class="submenu-item<?= r($item->isOpen(), ' is-active') ?>"><a href="<?php echo $child->url() ?>"><?php echo $child->title()->html() ?></a></li>
           <?php endforeach ?>
         </ul>
       <?php else: ?>

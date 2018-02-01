@@ -1,0 +1,64 @@
+Title: Kalender
+
+----
+
+Text: 
+
+----
+
+Calendar: 
+
+- 
+  name: 'DE NIEUWELINGEN - WALMOK'
+  description: |
+    De Nieuwelingen is een samenwerking tussen Trefpunt en KASK & CONSERVATORIUM School of Arts Gent. Het is een treffen van twee jonge, beloftevolle bands ontsproten uit de richtingen jazz, pop en muziekproductie die op een punt gekomen zijn waarop alles kan veranderen.
+    
+    Walmok
+    
+    Walmok is het pseudoniem van jonge Antwerpse producer Wannes De Vogelaere. Sinds hij de wildcard won op de Kunstbende 2015 gaat het hard voor deze jonge wolf.
+    
+    Met zijn DJ sets steekt hij elke dansvloer in lichterlaaie en dat leverde hem reeds een finale op in de Studio Brussel wedstrijd voor Laundry Day. In het najaar van 2017 en voorjaar van 2018 verlegt Walmok de focus van deejaying naar live spelen en dat doet hij niet alleen.
+    
+    Op het podium laat hij zich vanaf heden vergezellen door twee klassemuzikanten en dat leverde hem na zijn eerste live optreden al meteen een zilveren medaille op tijdens De Beloften.
+    
+    Bezetting
+    Wannes De Vogelaere (dj, elektronica)
+    Keanu De Pooter (toetsen)
+    Robbe Van Ael (drums)
+  begin_date: 2018-02-01
+  begin_time: 20:00
+  end_date: ""
+  end_time: ""
+  location: sint-jacobs
+  price: "0"
+  image: 1.jpg
+- 
+  name: DANSENDE BEREN VERJAARDAGSFEEST
+  description: |
+    De Beren hebben weer een reden om te Dansen, want onze muzieksite bestaat binnenkort drie jaar. Dat doen we het liefst op een zotte line-up in Trefpunt. We openen met de rechtdoor rock en roll van Page Down, surfen verder op de psychedelische pop van Alpha Whale en sluiten af met de elektronische melancholie van Portland. Wij Beren sluiten echter nooit volledig af. Vandaar nog een afterparty met de Dansende Beren DJs.
+    
+    Klauw de datum alvast neer in je agenda - vrijdag 2 februari 2018
+    
+    Locatie - Trefpunt
+    
+    Prijs - €3 add
+    
+    Line-up
+    
+    PAGE DOWN
+    We winden er net zoals zij geen doekjes om en bijten de spits af met rechtdoor rock en roll, zoals het hoort.
+    
+    Alpha Whale
+    Headliner Alpha Whale stroomt ergens tussen Allah-Las en The Shadows en laat ons met plezier meesurfen op enkele zware, psychedelische golven.
+    
+    Portland
+    Het meerstemmige Portland schept er vervolgens nog wat sfeer bij met wondermooie nummers en een heerlijk mijmerende ondertoon.
+    
+    Extra: Dansende Beren DJs afterparty (Gratis!)
+  begin_date: 2018-02-02
+  begin_time: 18:30
+  end_date: ""
+  end_time: ""
+  location: cafe
+  price: "3"
+  image: 2.jpg
