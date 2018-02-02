@@ -2,7 +2,7 @@ Title: Projecten
 
 ----
 
-Text: This portfolio layout might be used to showcase your latest design work, a collection of your favorite recipes or maybe something completely different? All projects are subpages of the <mark>projects</mark> page and are fetched by a snippet file called <mark>showcase.php</mark>.
+Text: Als productiecentrum produceert Trefpunt jaarlijks meerdere tijdelijke projecten met topmuzikanten een heel dikwijls met een breed draagvlak. Naast tijdelijke projecten heeft Trefpunt ook permanente <mark>producties</mark> in omloop (Artist in Residence, Timur und seine Mannschaft, La Scala,...)
 
 ----
 

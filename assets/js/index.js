@@ -24,7 +24,7 @@ for ( var i=0, len = triggers.length; i < len; i++ ) {
 }
 var colors = {
 	'blue': '#6ab4cf',
-	'orange': '#f24613',
+	'orange': '#f67f5c',
 	'green': '#6acf85'
 }
 var orb = document.querySelector('.orb');

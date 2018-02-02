@@ -215,6 +215,21 @@ body {
 .heading {
   font-weight: bold;
 }
+.today {
+  margin-left: 30px;
+  position:relative;
+}
+.today::before {
+  content: '';
+  position:absolute;
+  width: 15px; 
+  height: 15px; 
+  background-color: #ffd500;
+  top: 25px;
+  left: -30px;
+  transform: rotate(-45deg);
+}
+
 
 /* Misc */
 
@@ -256,7 +271,7 @@ figcaption {
 hr {
   height: 2px;
   background-color: #222;
-  width: 60%;
+  width: 70%;
   margin: 5px 0px 5px 0px;
 }
 
@@ -313,7 +328,7 @@ hr {
     position: relative;
     overflow: hidden;
   }
-  
+
   .menu::after {
     content: "";
     position: absolute;
