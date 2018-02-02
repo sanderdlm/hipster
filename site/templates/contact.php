@@ -4,7 +4,7 @@
   
   <div class='wrap'>
   	
-    <div class="column">
+    <div class="column contact">
       <?= $page->text()->kirbytext() ?>
     </div>
 

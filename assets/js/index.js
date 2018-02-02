@@ -22,6 +22,10 @@ for ( var i=0, len = triggers.length; i < len; i++ ) {
 		this.parentElement.childNodes[3].classList.toggle('is-active');
 	});
 }
+
+/*
+Selection color change
+*/
 var colors = {
 	'blue': '#6ab4cf',
 	'orange': '#f67f5c',

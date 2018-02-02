@@ -236,6 +236,10 @@ body {
 
 /* -----  Contacts  -----*/
 
+.contact {
+  max-width: 400px;
+}
+
 .contacts {
   display: flex;
   padding: 0;
