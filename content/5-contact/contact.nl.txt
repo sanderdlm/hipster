@@ -22,55 +22,21 @@ BTW BE 0450.381.391
 
 ----
 
-Intro: 
-
-Guido De Leeuw
-(artistieke leiding, programmatie)
-guido@trefpunt.be
-
-Sandra Bardyn
-(zakelijke leiding)
-sandra@trefpunt.be
-
-Faye Van Kerckhove
-(zakelijke coordinatie)
-fayetrefpunt@gmail.com
-
-Ilja Bracke
-(artistieke productie, programmatie)
-ilja@trefpunt.be
-
-----
-
-Contactoptions: 
+Contacts: 
 
 - 
-  title: Contact
-  text: >
-    Feel free to drop us a line if you
-    have any questions.
-  url: mailto:support@getkirby.com
-  linktext: Write an email
-  icon: contact.svg
+  name: Guido De Leeuw
+  role: artistieke leiding, programmatie
+  email: guido@trefpunt.be
 - 
-  title: Forum
-  text: >
-    Join the Kirby community and connect
-    with others.
-  url: https://forum.getkirby.com/
-  linktext: Visit Kirby’s forum
-  icon: forum.svg
+  name: Sandra Bardyn
+  role: zakelijke leiding
+  email: sandra@trefpunt.be
 - 
-  title: GitHub
-  text: >
-    Report Kirby-related issues directly on
-    GitHub.
-  url: https://github.com/getkirby
-  linktext: Kirby on GitHub
-  icon: github.svg
+  name: Faye Van Kerckhove
+  role: zakelijke coordinatie
+  email: fayetrefpunt@gmail.com
 - 
-  title: Docs
-  text: "Check out Kirby's detailed tutorials and instructions."
-  url: https://getkirby.com/docs
-  linktext: Documentation
-  icon: docs.svg
+  name: Ilja Bracke
+  role: artistieke productie, programmatie
+  email: ilja@trefpunt.be

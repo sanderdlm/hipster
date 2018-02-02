@@ -5,7 +5,7 @@
   <div class='wrap'>
   	
     <div class="column">
-      <?= $page->text()->kirbytext() ?>
+      <?php snippet('calendar_home', array('calendar'  => calendar($pages->find('kalender')->calendar()->yaml()))); ?>
     </div>
 
     <div class="column">
@@ -25,7 +25,7 @@
   </div>
 
   <div class="column">
-    <?= $page->intro()->kirbytext() ?>
+    <?= $page->text()->kirbytext() ?>
   </div>
 
 </main>

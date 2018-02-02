@@ -77,7 +77,7 @@ body {
 }
 
 .sidebar {
-  min-width: 300px;
+  min-width: 350px;
 }
 
 .main {
@@ -132,6 +132,10 @@ body {
   transition-property: max-height;
   transition-duration: .5s;
   transition-timing-function: ease;
+}
+
+.menu-item {
+  max-width: 330px;
 }
 
 .submenu {
@@ -230,6 +234,15 @@ body {
   transform: rotate(-45deg);
 }
 
+/* -----  Contacts  -----*/
+
+.contacts {
+  display: flex;
+  padding: 0;
+}
+.contact-card {
+  padding: 20px 30px;
+}
 
 /* Misc */
 
@@ -260,6 +273,7 @@ img { /* Responsive images */
   max-width: 100%;
   height: auto;
 }
+
 figcaption {
   font-size: .7em;
   color: #fff;
@@ -358,6 +372,10 @@ hr {
 
   .footer {
     padding-top: 300px; /* This pushes the footer down enough to display the skewed ::before element */
+  }
+
+  .contacts {
+    flex-direction: column;
   }
 
 }

@@ -5,10 +5,9 @@ Title: Over
 Intro: 
 
 Verdere links:
--> (link: zaalhuur text: Zaalverhuur)
-(link: accueil text: Accueil )
--> Partners
-(link: diversiteit text: Duurzaamheid & Diversiteit)
+(link: zaalhuur text: > Zaalverhuur)
+(link: accueil text: > Accueil )
+(link: diversiteit text: > Duurzaamheid & Diversiteit)
 
 ----
 

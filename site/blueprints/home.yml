@@ -1,22 +1,16 @@
-title: Home
-
+title: Pagina
 pages: false
-
 fields:
   title:
-    label: Title
+    label: Titel
     type:  text
 
-  intro:
-    label: Intro
-    type:  textarea
-
   text:
-    label: Text
+    label: Tekst onderaan
     type:  textarea
 
 files:
   fields:
     caption:
-      label: Caption
+      label: Onderschrift
       type: textarea

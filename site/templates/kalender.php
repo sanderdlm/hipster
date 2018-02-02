@@ -5,15 +5,7 @@
   <div class='wrap'>
   	
     <div class="column">
-      <?php $calendar = calendar($page->calendar()->yaml()); ?>
-      <?php
-      snippet('calendar', array(
-      	'calendar'  => $calendar,
-      	'fields'        => array(
-      		'name'       => l::get('title')
-      		)
-      	));
-      	?>
+      <?php snippet('calendar', array('calendar'  => calendar($page->calendar()->yaml()))); ?>
     </div>
 
     <div class="column">

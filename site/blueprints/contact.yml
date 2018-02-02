@@ -1,0 +1,26 @@
+title: Contact
+pages: false
+files: false
+fields:
+  title:
+    label: Titel
+    type:  text
+  text:
+    label: Tekst links
+    type:  textarea
+  contacts:
+    label: Contactpersonen
+    type: structure
+    entry: >
+      <strong>{{name}} ― {{role}}</strong><br>
+      {{email}}
+    fields:
+      name:
+        label: Naam
+        type: text
+      role:
+        label: Functie
+        type: text
+      email:
+        label: Emailadres
+        type: text

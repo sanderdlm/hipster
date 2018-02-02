@@ -1,16 +1,17 @@
 <section class="calendar">
 <?php
-$b = strtotime("midnight", time());
-$e = strtotime("tomorrow", $b) - 1;
-
-if (!$calendar->getAllEvents()):
+if (!$calendar->getEvents()):
 	echo l::get('calendar-no-entry');
 else: ?>
-	<?php foreach ($calendar->getAllEvents() as $event): ?>
-		<div class="event<?php e($event->isPast(), ' past'); e($event->getBeginTimestamp() >= $b && $event->getBeginTimestamp() <= $e, ' today'); ?>">
+	<?php foreach ($calendar->getEvents() as $key => $event): ?>
+		<div class="event<?php e($event->isPast(), ' past'); ?>">
 			<div class='heading'><?= $event->getBeginStr().' ― '.$event->getField('name'); ?></div>
 			<div class='meta'><?= strtoupper($event->getField('location')).' // uur // '.($event->getField('price') == 0 ? 'Gratis' : '€'.$event->getField('price')); ?></div>
 		</div>
+		<?php if($key > 5){
+			break;
+		}
+		?>
 		<hr>
 	<?php endforeach; ?>
 <?php endif; ?>

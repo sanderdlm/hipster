@@ -4,13 +4,9 @@ pages: false
 
 fields:
   title:
-    label: Title
+    label: Titel
     type:  text
 
-  intro:
-    label: Intro
-    type:  textarea
-
   text:
-    label: Text
+    label: Foutmelding
     type:  textarea

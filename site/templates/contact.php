@@ -24,8 +24,13 @@
     </div>
   </div>
 
-  <div class="column">
-    <?= $page->intro()->kirbytext() ?>
+  <div class="column contacts">
+    <?php foreach($page->contacts()->toStructure() as $contact): ?>
+        <div class='contact-card'>
+          <div><strong><?= $contact->name; ?></strong> (<?=$contact->role; ?>)</div>
+          <div><?= $contact->email; ?></div>
+        </div>
+    <?php endforeach ?>
   </div>
 
 </main>
