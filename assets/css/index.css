@@ -117,7 +117,7 @@ body {
   top: 205px; /* 205px negates the skew from 12 degrees */
   height: 1000px;
   z-index: -1;
-  background: #f6f9fc;
+  background: #e3ecf6;
   transform: skew(0,-12deg);
 }
 
@@ -129,6 +129,7 @@ body {
   position: fixed;
   overflow-y: hidden;
   max-height: 800px;
+  transition-property: transform;
   transition-property: max-height;
   transition-duration: .5s;
   transition-timing-function: ease;
@@ -347,17 +348,15 @@ hr {
     overflow: hidden;
   }
 
-  .menu::after {
+  .menu::before {
     content: "";
     position: absolute;
-    z-index: 1;
-    width: 60vh;
-    height: 60vh;
-    border-radius: 50%;
-    top: -30vh;
-    right: -30vh;
-    background: #b4cf6a;
-    z-index: -2;
+    top: -300px;
+    z-index: -6;
+    width: 100%;
+    height: 500px;
+    transform: skew(0,15deg);
+    background: #e3ecf6;
   }
   .menu-item {
     margin-left: 20px;
