@@ -4,9 +4,9 @@ pages: false
 
 fields:
   title:
-    label: Titel
+    label: Title
     type:  text
 
   text:
-    label: Foutmelding
+    label: Error message
     type:  textarea

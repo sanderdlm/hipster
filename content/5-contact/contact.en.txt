@@ -1,0 +1,37 @@
+Title: Contact
+
+----
+
+Text: 
+
+# Contact
+info@hipster.be
+T: +32 9 222 33 11
+## Address
+Veldstraat 22
+9000 Ghent
+Belgium
+## Financial
+Hipster inc
+BTW BE0411.111.111
+
+----
+
+Contacts: 
+
+- 
+  name: Brock
+  role: Gym Leader of Pewter City
+  email: brock@hipster.be
+- 
+  name: Misty
+  role: Water-type Pokémon expert
+  email: misty@hipster.be
+- 
+  name: Lt. Surge
+  role: ex-military, an expert in Electric-type Pokémon
+  email: surge@hipster.be
+- 
+  name: Sabrina
+  role:  Psychic-type Pokémon specialist
+  email: sabrina@hipster.be

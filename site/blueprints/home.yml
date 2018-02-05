@@ -1,16 +1,16 @@
-title: Pagina
+title: Home
 pages: false
 fields:
   title:
-    label: Titel
+    label: Title
     type:  text
 
   text:
-    label: Tekst onderaan
+    label: Text (bottom)
     type:  textarea
 
 files:
   fields:
     caption:
-      label: Onderschrift
+      label: Caption
       type: textarea

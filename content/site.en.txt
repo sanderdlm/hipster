@@ -1,0 +1,9 @@
+Title: Hipster
+
+----
+
+Author: Sander De la Marche
+
+----
+
+Description: Hipster is a free theme for Kirby. It features a calendar system which makes it perfect for a concert venue or a bar to display their upcoming events.

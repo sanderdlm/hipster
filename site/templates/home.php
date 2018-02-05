@@ -5,7 +5,7 @@
   <div class='wrap'>
   	
     <div class="column">
-      <?php snippet('calendar_home', array('calendar'  => calendar($pages->find('kalender')->calendar()->yaml()))); ?>
+      <?php snippet('calendar_home', array('calendar'  => calendar($pages->find('calendar')->calendar()->yaml()))); ?>
     </div>
 
     <div class="column">

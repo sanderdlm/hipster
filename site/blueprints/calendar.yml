@@ -1,0 +1,63 @@
+title: Calendar
+pages: true
+fields:
+  title:
+    label: Title
+    type:  text
+  calendar:
+    label: Calendar
+    type: structure
+    entry: >
+      <strong>{{begin_date}} ― {{name}}</strong><br>
+      {{location}} // {{begin_time}} // {{price}}
+    fields:
+      name:
+        label: Name
+        type: text
+      description:
+        label: Description
+        type: textarea
+        size: small
+      begin_date:
+        label: Start date
+        type: date
+        format: MM/DD/YYYY
+        width: 1/2
+      begin_time:
+        label: Start time
+        type: time
+        interval: 15
+        width: 1/2
+      end_date:
+        label: End date
+        type: date
+        format: MM/DD/YYYY
+        width: 1/2
+        help: Leave empty if not needed
+      end_time:
+        label: End time
+        type: time
+        interval: 15
+        width: 1/2
+      location:
+        label: Location
+        type: select
+        options:
+          bar: BAR
+          venue: VENUE
+          stage: STAGE
+        width: 1/2
+      price:
+        label: Price
+        type: number
+        width: 1/2
+        help: 0 = gratis
+        default: 0
+      image:
+        label: Picture
+        type: image
+files:
+  fields:
+    caption:
+      label: Caption
+      type: textarea 

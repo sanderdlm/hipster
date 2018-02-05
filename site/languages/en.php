@@ -1,7 +1,7 @@
 <?php
 
-l::set('calendar-time-format', '%d');
-l::set('calendar-full-time-format', '%d %X');
+l::set('calendar-time-format', '%x');
+l::set('calendar-full-time-format', '%a %d %b');
 l::set('calendar-month-format', '%B %Y');
 l::set('calendar-no-entry', 'There currently are no events.');
 

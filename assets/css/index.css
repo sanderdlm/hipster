@@ -252,14 +252,14 @@ body {
 /* Misc */
 
 .orb {
-  height: 80vh;
-  width: 80vh;
+  height: 90vh;
+  width: 90vh;
   opacity: 0.5;
   z-index: -5;
   border-radius: 50%;
   position: fixed;
   top: 5vh;
-  left: -40vh;
+  left: -45vh;
 }
 
 .blue {
@@ -367,11 +367,11 @@ hr {
     max-height: 1000px;
   }
 
-  .orb {
-    height: 70vh;
-    width: 70vh;
-    left: -35vh;
-  }
+ .orb {
+   height: 90vh;
+   width: 90vh;
+   left: -45vh;
+ }
 
   .footer {
     padding-top: 300px; /* This pushes the footer down enough to display the skewed ::before element */

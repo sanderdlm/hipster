@@ -3,24 +3,24 @@ pages: false
 files: false
 fields:
   title:
-    label: Titel
+    label: Title
     type:  text
   text:
-    label: Tekst links
+    label: Text (left)
     type:  textarea
   contacts:
-    label: Contactpersonen
+    label: Contacts
     type: structure
     entry: >
       <strong>{{name}} ― {{role}}</strong><br>
       {{email}}
     fields:
       name:
-        label: Naam
+        label: Name
         type: text
       role:
-        label: Functie
+        label: Role
         type: text
       email:
-        label: Emailadres
+        label: Email
         type: text

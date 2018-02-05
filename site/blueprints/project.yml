@@ -1,0 +1,15 @@
+title: project
+fields:
+  title:
+    label: Title
+    type:  text
+    
+  text:
+    label: Text (left)
+    type:  textarea
+
+files:
+  fields:
+    caption:
+      label: Caption
+      type: textarea

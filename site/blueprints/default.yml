@@ -1,20 +1,19 @@
-title: Pagina
-pages: false
+title: Page
 fields:
   title:
-    label: Titel
+    label: Title
     type:  text
     
   text:
-    label: Tekst links
+    label: Text (left)
     type:  textarea
 
   intro:
-    label: Tekst onderaan
+    label: Text (bottom)
     type:  textarea
 
 files:
   fields:
     caption:
-      label: Onderschrift
+      label: Caption
       type: textarea

@@ -19,9 +19,9 @@ c::set('license', 'put your license key here');
 
 c::set('languages', array(
 	array(
-		'code'    => 'nl',
-		'name'    => 'Nederlands',
-		'locale'  => 'nl',
+		'code'    => 'en',
+		'name'    => 'English',
+		'locale'  => 'en_US.UTF-8',
 		'default' => true,
 		'url'     => '/'
 	)
