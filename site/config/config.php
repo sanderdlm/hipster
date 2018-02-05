@@ -30,5 +30,5 @@ Contact map
 Make a JS api google maps key and put it in here
 */
 
-c::set('plugin.styledmap.apikey', 'your_key_goes_here');
+c::set('plugin.styledmap.apikey', 'AIzaSyAHZD_bU3jRPTgcnZxKSWI_5tTb3-mlyuc');
 c::set('plugin.styledmap.defaults.zoom', 17);
