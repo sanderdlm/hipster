@@ -8,7 +8,7 @@ else: ?>
 			<div class='heading'><?= $event->getBeginStr().' ― '.$event->getField('name'); ?></div>
 			<div class='meta'><?= strtoupper($event->getField('location')).' // '.date('h', $event->getBeginTimestamp()).'u'.date('i', $event->getBeginTimestamp()).' // '.($event->getField('price') == 0 ? 'Free' : '€'.$event->getField('price')); ?></div>
 		</div>
-		<?php if($key > 7){
+		<?php if($key > 5){
 			break;
 		}
 		?>

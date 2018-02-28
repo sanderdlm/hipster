@@ -34,6 +34,6 @@ var colors = {
 var orb = document.querySelector('.orb');
 var orb_color = orb.classList[1];
 var styleEl = document.createElement('style'), styleSheet;
+styleEl.append("::selection {background: "+colors[orb_color]+";color: #fff;}");
+styleEl.append("::-moz-selection {background: "+colors[orb_color]+";color: #fff;}");
 document.head.appendChild(styleEl);
-styleSheet = styleEl.sheet;
-styleSheet.insertRule("::-moz-selection {background: "+colors[orb_color]+";color: #fff;}", 0);
