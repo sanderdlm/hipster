@@ -77,7 +77,7 @@ body {
 }
 
 .sidebar {
-  min-width: 350px;
+  min-width: 325px;
 }
 
 .main {
@@ -136,7 +136,7 @@ body {
 }
 
 .menu-item {
-  max-width: 330px;
+  max-width: 305px;
 }
 
 .submenu {
